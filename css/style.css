@@ -1,0 +1,21 @@
+/* header */
+.header {
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.0001);
+}
+
+/* page */
+.page {
+    display: flex;
+    flex-direction: column;
+
+    color: #000000;
+    background-color: #ffffff;
+
+    font-family: 'Cuprum', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.page__header {}
+
