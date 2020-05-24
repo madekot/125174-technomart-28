@@ -19,7 +19,6 @@
   transition: transform 0.6s
 }
 
-
 /* slider-bullet */
 .slider-bullet {
   display: flex;
@@ -379,9 +378,6 @@
 
 .site-nav__second-cards-list {}
 
-
-
-
 /* workout */
 .workout {
   margin-top: 0;
@@ -676,12 +672,6 @@ a {
   font-size: 18px;
   line-height: 24px;
 }
-
-/*.header__logo-wrap {*/
-/*  position: relative;*/
-/*  width: 220px;*/
-/*  height: 42px;*/
-/*}*/
 
 .header__logo {
   width: 220px;
@@ -979,7 +969,6 @@ a {
   background-position: right 17px center;
 }
 
-
 .header__login-name:hover {
   background-image: url(../img/icon-user--dark.svg);
 }
@@ -994,7 +983,6 @@ a {
   background-repeat: no-repeat;
   background-position: left 19px center;
 }
-
 
 .header__login-link:hover {
   color: #EE3643;
@@ -1173,7 +1161,6 @@ a {
 .footer-top__address {}
 
 .footer-top__phone {}
-
 
 /* page */
 .page {
