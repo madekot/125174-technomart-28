@@ -475,6 +475,111 @@
   margin-bottom: 70px;
 }
 
+/* about-company */
+.about-company {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.about-company__texts-wrap {
+	margin-bottom: 26px;
+}
+
+.about-company__lead {
+	margin-top: 0;
+	margin-bottom: 24px;
+
+	font-size: 30px;
+	line-height: 30px;
+
+	text-transform: uppercase;
+
+	color: #000000;
+}
+
+.about-company__intro {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	font-family: "PT Sans", 'Arial', sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+
+	color: #000000;
+}
+
+.about-company__delivery {
+	width: 400px;
+}
+
+.about-company__delivery-intro {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	font-family: "PT Sans", 'Arial', sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+
+	color: #000000;
+}
+
+.about-company__delivery-list {
+	padding: 0;
+	list-style: none;
+
+	margin: 0 0 20px;
+}
+
+.about-company__delivery-list-item {
+	position: relative;
+	padding-left: 37px;
+	margin-bottom: 12px;
+}
+
+.about-company__delivery-list-item:last-of-type {
+	margin-bottom: 0;
+}
+
+.about-company__delivery-list-item:before {
+	content: "";
+
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+
+	width: 25px;
+	height: 2px;
+
+	background-color: #EE3643;
+}
+
+.about-company__delivery-list-item-text {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	font-size: 18px;
+	line-height: 24px;
+
+	color: #000000;
+}
+
+/* main-row-bottom */
+.main-row-bottom {
+	display: flex;
+	justify-content: start;
+	flex-wrap: wrap;
+}
+
+.main-row-bottom__about-company {
+	width: 460px;
+}
+
+.main-row-bottom__column-contacts {
+	width: 300px;
+}
+
 /* brands-popular */
 .brands-popular {
   display: flex;
@@ -1714,6 +1819,8 @@ a {
 .brands-popular__header {
   margin-bottom: 20px;
 }
+
+.main__row-bottom {}
 
 /* main-empty */
 .main-empty {
