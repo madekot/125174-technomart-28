@@ -1529,6 +1529,8 @@ a {
   opacity: 1;
 }
 
+/*TODO: лучше переделать hover на ссылки для пунктов
+   верхнего меню .header__basket-link:hover:before */
 .header__shopping-menu-item:hover .header__basket-link:before {
   opacity: 1;
 }
@@ -1560,6 +1562,11 @@ a {
 
   display: flex;
   align-items: center;
+}
+
+.header__basket-link--color {
+  color: #ffffff;
+  background-color: #EE3643;
 }
 
 .header__basket-link:before {
@@ -1882,6 +1889,9 @@ a {
   width: 300px;
 }
 
+/* catalog-main */
+.catalog-main {}
+
 /* main-empty */
 .main-empty {
   display: flex;
@@ -1997,6 +2007,8 @@ a {
 .page__mail {
   padding-top: 59px;
 }
+
+.page__catalog-main{}
 
 .page__footer {
   margin-top: auto;
