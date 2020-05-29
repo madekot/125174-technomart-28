@@ -93,53 +93,53 @@
           <form class="drill__filter-form filter-form" name="product-filter" method="get">
             <fieldset class="filter-form__price-field fieldset line-bottom">
               <legend class="filter-form__price-field-title text-filter-field legend">Цена:</legend>
-              <div class="price-field__range-slider drill-box"></div>
+              <div class="filter-form__range-slider drill-box"></div>
             </fieldset>
             <fieldset class="filter-form__manufacturers-field fieldset line-bottom">
               <legend class="filter-form__manufacturers-field-title text-filter-field legend">Производители:</legend>
-              <p class="filter-form__manufacturers-field-item">
-                <input class="filter-form__manufacturers-field-item-input visually-hidden" type="checkbox"
+              <p class="filter-form__manufacturers-field-item checkbox-field">
+                <input class="checkbox-field__input visually-hidden" type="checkbox"
                        id="field-checkbox-1" name="Bosch" checked>
-                <label class="filter-form__manufacturers-field-item-label text-filter-field text-filter-field--size"
+                <label class="checkbox-field__label text-filter-field text-filter-field--size"
                        for="field-checkbox-1">Bosch</label>
               </p>
-              <p class="filter-form__manufacturers-field-item">
-                <input class="filter-form__manufacturers-field-item-input visually-hidden" type="checkbox"
+              <p class="filter-form__manufacturers-field-item checkbox-field">
+                <input class="checkbox-field__input visually-hidden" type="checkbox"
                        id="field-checkbox-2" name="Интерскол">
-                <label class="filter-form__manufacturers-field-item-label text-filter-field text-filter-field--size"
+                <label class="checkbox-field__label text-filter-field text-filter-field--size"
                        for="field-checkbox-2">Интерскол</label>
               </p>
-              <p class="filter-form__manufacturers-field-item">
-                <input class="filter-form__manufacturers-field-item-input visually-hidden" type="checkbox"
+              <p class="filter-form__manufacturers-field-item checkbox-field">
+                <input class="checkbox-field__input visually-hidden" type="checkbox"
                        id="field-checkbox-3" name="Makita" checked>
-                <label class="filter-form__manufacturers-field-item-label text-filter-field text-filter-field--size"
+                <label class="checkbox-field__label text-filter-field text-filter-field--size"
                        for="field-checkbox-3">Makita</label>
               </p>
-              <p class="filter-form__manufacturers-field-item">
-                <input class="filter-form__manufacturers-field-item-input visually-hidden" type="checkbox"
+              <p class="filter-form__manufacturers-field-item checkbox-field">
+                <input class="checkbox-field__input visually-hidden" type="checkbox"
                        id="field-checkbox-4" name="Dewalt">
-                <label class="filter-form__manufacturers-field-item-label text-filter-field text-filter-field--size"
+                <label class="checkbox-field__label text-filter-field text-filter-field--size"
                        for="field-checkbox-4">Dewalt</label>
               </p>
-              <p class="filter-form__manufacturers-field-item">
-                <input class="filter-form__manufacturers-field-item-input visually-hidden" type="checkbox"
+              <p class="filter-form__manufacturers-field-item checkbox-field">
+                <input class="checkbox-field__input visually-hidden" type="checkbox"
                        id="field-checkbox-5" name="Hitachi">
-                <label class="filter-form__manufacturers-field-item-label text-filter-field text-filter-field--size"
+                <label class="checkbox-field__label text-filter-field text-filter-field--size"
                        for="field-checkbox-5">Hitachi</label>
               </p>
             </fieldset>
             <fieldset class="filter-form__power-supply-field fieldset">
               <legend class="filter-form__power-supply-field-title text-filter-field legend">Питание</legend>
-              <p class="filter-form__power-supply-field-item">
-                <input class="filter-form__power-supply-field-item-input visually-hidden" type="radio"
+              <p class="filter-form__power-supply-field-item radio-field">
+                <input class="radio-field__input visually-hidden" type="radio"
                        id="field-radio-1" name="supply-field" checked>
-                <label class="filter-form__power-supply-field-item-label text-filter-field text-filter-field--size"
+                <label class="radio-field__label filter-form__power-supply-field-item-label text-filter-field text-filter-field--size"
                        for="field-radio-1">Аккумуляторные</label>
               </p>
-              <p class="filter-form__power-supply-field-item">
-                <input class="filter-form__power-supply-field-item-input visually-hidden" type="radio"
+              <p class="filter-form__power-supply-field-item radio-field">
+                <input class="radio-field__input visually-hidden" type="radio"
                        id="field-radio-2" name="supply-field">
-                <label class="filter-form__power-supply-field-item-label text-filter-field text-filter-field--size"
+                <label class="radio-field__label text-filter-field text-filter-field--size"
                        for="field-radio-2">Сетевые</label>
               </p>
             </fieldset>
@@ -147,42 +147,49 @@
           </form>
         </section>
         <section class="drill__sorting-column">
-          <div class="drill__sorting-drill-box drill-box">
-            <h2 class="drill__sorting-title drill-text">Сортировка:</h2>
-            <ul class="drill__sorting-links-list">
-              <li class="drill__sorting-list-item-by-price">
-                <input class="drill__sorting-list-item-input visually-hidden" type="radio" name="type-sorting"
+          <header class="drill__sorting-header drill-box">
+            <h2 class="drill__sorting-header-title drill-text">Сортировка:</h2>
+            <ul class="drill__sorting-header-types">
+              <li class="drill__sorting-types-list-item-by-price">
+                <input class="drill__sorting-types-list-item-input visually-hidden" type="radio" name="type-sorting"
                        id="type-sorting-1" checked>
-                <label class="drill__sorting-list-item-label drill-text drill-text--theme-text-sort"
+                <label class="drill__sorting-types-list-item-label drill-text drill-text--theme-text-sort"
                        for="type-sorting-1">По цене</label>
               </li>
-              <li class="drill__sorting-list-item-by-type">
-                <input class="drill__sorting-list-item-input visually-hidden" type="radio" name="type-sorting"
+              <li class="drill__sorting-types-list-item-by-type">
+                <input class="drill__sorting-types-list-item-input visually-hidden" type="radio" name="type-sorting"
                        id="type-sorting-2">
-                <label class="drill__sorting-list-item-label drill-text drill-text--theme-text-sort"
+                <label class="drill__sorting-types-list-item-label drill-text drill-text--theme-text-sort"
                        for="type-sorting-2">По типу</label>
               </li>
-              <li class="drill__sorting-list-item-by-functional">
-                <input class="drill__sorting-list-item-input visually-hidden" type="radio" name="type-sorting"
+              <li class="drill__sorting-types-list-item-by-functional">
+                <input class="drill__sorting-types-list-item-input visually-hidden" type="radio" name="type-sorting"
                        id="type-sorting-3">
-                <label class="drill__sorting-list-item-label drill-text drill-text--theme-text-sort"
+                <label class="drill__sorting-types-list-item-label drill-text drill-text--theme-text-sort"
                        for="type-sorting-3">По функционалу</label>
               </li>
-              <li class="drill__sorting-list-item-min-to-max">
-                <input class="drill__sorting-list-item-input visually-hidden" type="radio"
+              <li class="drill__sorting-types-list-item-min-to-max">
+                <input class="drill__sorting-types-list-item-input visually-hidden" type="radio"
                        name="ascending-or-descending" checked id="ascending-or-descending-1">
-                <label class="drill__sorting-list-item-label drill__sorting-list-item-label--icon-top"
+                <label class="drill__sorting-types-list-item-label drill__sorting-types-list-item-label--icon-top"
                        for="ascending-or-descending-1"><span class="visually-hidden">По убыванию</span></label>
               </li>
-              <li class="drill__sorting-list-item-max-to-min">
-                <input class="drill__sorting-list-item-input visually-hidden" type="radio"
+              <li class="drill__sorting-types-list-item-max-to-min">
+                <input class="drill__sorting-types-list-item-input visually-hidden" type="radio"
                        name="ascending-or-descending" id="ascending-or-descending-2">
-                <label class="drill__sorting-list-item-label drill__sorting-list-item-label--icon-bottom"
+                <label class="drill__sorting-types-list-item-label drill__sorting-types-list-item-label--icon-bottom"
                        for="ascending-or-descending-2"><span class="visually-hidden">По Возрастанию</span></label>
               </li>
             </ul>
-          </div>
-          <ul class="drill__sorted-list-products"></ul>
+          </header>
+          <ul class="drill__sorted-products-list">
+            <li class="drill__sorted-products-list-item"></li>
+            <li class="drill__sorted-products-list-item"></li>
+            <li class="drill__sorted-products-list-item"></li>
+            <li class="drill__sorted-products-list-item"></li>
+            <li class="drill__sorted-products-list-item"></li>
+            <li class="drill__sorted-products-list-item"></li>
+          </ul>
         </section>
       </div>
     </main>
