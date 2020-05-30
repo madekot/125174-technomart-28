@@ -1801,10 +1801,15 @@ a {
 
 .drill__sorting-column {
   width: 700px;
+  margin-bottom: 48px;
 
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.drill__sorting-header {
+  margin-bottom: 28px;
 }
 
 .drill__sorting-header-title {
@@ -1894,6 +1899,30 @@ a {
   background-image: url(../img/drill__icon-triangle--gray.svg);
 
   transform: rotate(180deg);
+}
+
+.drill__sorted-products-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.drill__sorted-products-list-item {
+  width: 220px;
+  background-color: tomato;
+
+  margin-right: 20px;
+}
+
+.drill__sorted-products-list-item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.drill__sorted-products-list-item:nth-of-type(n + 4) {
+  margin-top: 18px;
 }
 
 /* bread-crumbs */
