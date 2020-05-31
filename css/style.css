@@ -1,3 +1,30 @@
+/* about-tool */
+.about-tool {}
+
+.about-tool__title {
+  margin-top: 0;
+  margin-bottom: 25px;
+
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.about-tool__text {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
 /* pagination */
 .pagination {
   display: flex;
@@ -1480,6 +1507,8 @@
   background-color: #F1F5F7;
 }
 
+
+
 /* icon-enter */
 .icon-enter {
   width: 20px;
@@ -1844,7 +1873,6 @@ a {
 
 .drill__sorting-column {
   width: 700px;
-  margin-bottom: 48px;
 
   display: flex;
   flex-direction: column;
@@ -2506,6 +2534,15 @@ a {
 .catalog-main__bread-crumbs {
   margin-top: 21px;
   margin-bottom: 20px;
+}
+
+.catalog-main__drill {
+  margin-bottom: 59px;
+}
+
+.catalog-main__about-tool {
+  padding-top: 64px;
+  padding-bottom: 68px;
 }
 
 /* main-empty */
